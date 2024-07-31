@@ -1,0 +1,127 @@
+/* Ini CSS */
+
+body{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.logo-icon{
+    border: 1px solid;
+    background-image: url(https://picsum.photos/200);
+    height: 25px;
+    width: 50px;
+    background-size: cover;
+    margin-left: 25px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-item{
+    border: 1px solid;
+    padding: 8px;
+}
+
+.main{
+    border: 1px solid;
+    height: 900px;
+}
+
+.main-title-1{
+    text-align: center;
+}
+
+.main-content-1{
+    display: flex;
+    height: 750px;
+    margin-top: 50px
+}
+
+
+.main-content-item-1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+}
+
+.main-content-banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+}
+
+.main-item{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.item-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://picsum.photos/30);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-content-item-2{
+    margin-left: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 30%;
+    height: 430px;
+    background-color: lavender;
+}
+
+input{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: cursive;
+}
+
+.form-button{ 
+    text-align: center;
+    margin-top: 20px;
+}
+  
+  button{
+    border: 1px;
+    width: 30%;
+    height: 35px;
+    background-color: rgb(104, 95, 177);
+    font-family: cursive;
+  }
+
+.main-content-2{
+    margin-top: 45px;
+}
+
+.main-title-2{
+    text-align: center;
+}
