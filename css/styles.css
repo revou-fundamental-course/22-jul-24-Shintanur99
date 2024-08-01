@@ -56,11 +56,7 @@ nav {
 .main-content-banner{
     width: 100%;
     height: 400px;
-}
-
-.logo-banner{
-    width: 100%;
-    height: 400px
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
 }
 
 .main-item{
@@ -113,7 +109,7 @@ select{
     text-align: center;
     margin-top: 20px;
 }
-  
+
   button{
     border: 1px;
     width: 30%;
@@ -123,23 +119,39 @@ select{
   }
 
 .main-content-2{
+    margin-top: 45px;
 }
-
 
 .main-title-2{
     text-align: center;
-    background-color: lightgrey;
-    padding: 50px;
+}
+
+div.gallery{
+display:flex
+}
+
+div.gallery img{
+    width: 50%;
+    height: 50px;
+}
+
+div.desc {
+
+}
+
+.list-travel{
     border: 1px solid;
-}
-.package{
+    height: 400px;
 
 }
 
-.package-item-1{
-
+.list-1{
+    display: flex;
+    justify-content: space-between;
 }
 
-.package-item-2{
-
+.list-2{
+    display: flex;
+    justify-content: space-between;
 }
+   
